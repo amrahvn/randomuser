@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.common{
+   position: relative;
+    img{
+        width: 100%;
+        height: 900px;   
+        object-fit:contain;
+        align-items: center;
+    }
+    .slider{
+        .prev i{
+            border-radius: 100% ;
+            color: white;
+            padding: 20px ;
+            background-color: black;
+            position: absolute;
+            top: 50%;
+            right: 20px;
+            z-index: 1;
+        }
+        .next i{
+            position: absolute;
+            top: 50%;
+            left: 20px;
+            border-radius: 100% ;
+            color: white;
+            padding: 20px ;
+            background-color: black;
+            z-index: 1;
+        }
+    }
+}
